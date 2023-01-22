@@ -7,6 +7,7 @@
 
 body {
   background-color: hsl(0, 0%, 90%);
+  font-family: var(--fuentePrincipal);
 }
 
 /*  HEADER */
@@ -54,4 +55,36 @@ body {
 
 .account-section {
   background-color: var(--colorSecundario);
+  min-height: 50vh;
+}
+
+/*  INDEX */
+
+.account {
+  background-color: #80b5aa;
+  padding: 0.3rem;
+  margin: 0;
+}
+
+table {
+  margin-inline: 2rem;
+}
+
+th {
+  background-color: #80b5aa;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+td {
+  padding: 1rem;
+  background-color: #4d8076;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.title-cuentas {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid var(--colorPrincipal);
 }

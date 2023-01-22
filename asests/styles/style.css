@@ -1,0 +1,57 @@
+:root {
+  --fuentePrincipal: "Montserrat", sans-serif;
+  --colorPrincipal: #4d8076;
+  --colorSecundario: #d5eade;
+  --colorTerciario: #80b5aa;
+}
+
+body {
+  background-color: hsl(0, 0%, 90%);
+}
+
+/*  HEADER */
+
+.header-index {
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--colorPrincipal);
+}
+
+.logo-bank {
+  text-align: center;
+  color: black;
+  padding-top: 1rem;
+}
+
+.active-user {
+  font-family: var(--fuentePrincipal);
+  font-weight: 700;
+  padding: 0.4rem;
+  background-color: var(--colorSecundario);
+  border-radius: 2rem;
+  margin: 0;
+}
+
+.icons-index {
+  color: #d5eade;
+}
+.icons-index:hover {
+  color: hsl(0, 0%, 90%);
+}
+
+/* NAV */
+.nav-burger {
+  background-color: var(--colorTerciario);
+  margin-bottom: 1rem;
+}
+
+.button-menu {
+  color: var(--colorPrincipal);
+  background-color: var(--colorSecundario);
+}
+
+.account-section {
+  background-color: var(--colorSecundario);
+}
